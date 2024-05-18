@@ -29,14 +29,23 @@ I initially created 2 VHDs of 5GB each in Win11, then created the RAID 1 VOL usi
 
 #### Wazuh
 I moved to my Alma Linux machine and verified that Wazuh was running using the terminal.
+
 ![Verify Wazuh Running](https://github.com/Jess-Rivera/Configuring-and-Testing-FIM/blob/main/FIM_verify_wazuh_running.PNG)
+
 Once verified, I signed into Wazuh and created an agent for the WIN11 machine.
+
 ![Adding Agent in Wazuh](https://github.com/Jess-Rivera/Configuring-and-Testing-FIM/blob/main/FIM_wazuh_add_agent.PNG)
+
 At this point I ran into some technical issues with Wazuh not wanting to run properly on my virtual Win11. After several restarts and careful input I finally got Wazuh running as an Agent on my Win11 machine. 
+
 ![Wazuh Running on Win11](https://github.com/Jess-Rivera/Configuring-and-Testing-FIM/blob/main/FIM_wazuh_run_win11.PNG)
+
 I then added the target directory to the agent configuration file and performed a few manipulations in the target folder.
+
 ![Adding Target Directory to Wazuh on WIN11](https://github.com/Jess-Rivera/Configuring-and-Testing-FIM/blob/main/FIM_adding_target_directory.PNG)
+
 Finally, I went back to my Alma Linux machine and verified that the changes I performed were tracked. 
+
 ![FIM Check on Linux](https://github.com/Jess-Rivera/Configuring-and-Testing-FIM/blob/main/FIM_check_mod.PNG)
 
 ## Challenges and Solutions
