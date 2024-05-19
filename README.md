@@ -19,7 +19,7 @@ Integrity was practiced by setting up and monitoring the open-source SIEM Wazuh.
     <img src="https://img.shields.io/badge/-Wazuh-001B49?&style=for-the-badge&logo=Wazuh&logoColor=white" />
     <img src="https://img.shields.io/badge/-Windows%2011-0078D6?&style=for-the-badge&logo=Windows&logoColor=white" />
     <img src="https://img.shields.io/badge/-PowerShell-5391FE?&style=for-the-badge&logo=PowerShell&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Alma%20Linux-999999?&style=for-the-badge&logo=AlmaLinux&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Alma%20Linux-082336?&style=for-the-badge&logo=AlmaLinux&logoColor=white" />
 </div>
 
 
